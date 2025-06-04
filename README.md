@@ -63,10 +63,6 @@ To enable robust unit testing of shared ViewModel logic in a .NET MAUI solutionâ
   <viewModels:BmiViewModel />
   ```
 - This setup allows the XAML parser to resolve the ViewModel type without errors.
-
-#### 7. **No Unnecessary Files or Projects**
-- Any unused shared project files (e.g., `.shproj` and its folder) are removed from the solution to prevent confusion and build issues.
-
 ---
 
 ### Step-by-Step Guide for Adoption
