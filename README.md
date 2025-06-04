@@ -79,8 +79,7 @@ To enable robust unit testing of shared ViewModel logic in a .NET MAUI solutionâ
 3. **Ensure the main MAUI projectâ€™s `.csproj` does not exclude the ViewModel files from compilation.**
 4. **Use consistent namespaces for ViewModels in both projects.**
 5. **Reference the ViewModel in XAML using the correct `clr-namespace` syntax.**
-6. **Remove any unused shared project files or folders (such as `.shproj`).**
-7. **Build and run both the MAUI app and the xUnit tests to verify that:**
+6. **Build and run both the MAUI app and the xUnit tests to verify that:**
    - The app builds and runs on all target platforms (Android, iOS, etc.).
    - The test project builds and all tests pass, confirming the shared logic is testable and correct.
 
